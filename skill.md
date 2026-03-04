@@ -2172,3 +2172,152 @@ keywords: ["Seedance 2.0", "AI music video generator", "Drama.Land", "multimodal
 │   └── ...
 └── SEO-质检报告.md                # 质检报告
 ```
+
+---
+
+## 📖 How-to 教程文章指南
+
+### 何时使用
+
+当文章目标是**教用户如何做某事**时使用此模板：
+- "How to Make AI Anime Videos"
+- "How to Create AI Music Videos"
+- "How to Use [工具名]"
+
+### How-to 文章结构
+
+```
+1️⃣ What Is [主题]?（定义 + 为什么重要）
+   └── 概述主要方法/类型（3种左右）
+
+2️⃣ Best Tools in [年份]（工具对比）
+   ├── Tool 1: [名称] - Best for [用途]
+   ├── Tool 2: [名称] - Best for [用途]
+   ├── Tool 3: [名称] - Best for [用途]
+   └── Comparison Table（功能对比表）
+
+3️⃣ Step-by-Step Guide（分方法详解）
+   ├── Method 1: [方法名]
+   │   ├── What you need
+   │   ├── Step 1-4
+   │   └── 具体 Prompt 示例
+   ├── Method 2: [方法名]
+   └── Method 3: [方法名]
+
+4️⃣ Pro Tips（专业技巧 5-7 条）
+   ├── Tip 1: [技巧]
+   ├── Tip 2: [技巧]
+   └── 具体示例代码/Prompt
+
+5️⃣ Examples: What's Possible（案例展示）
+   ├── Example 1: [场景]
+   ├── Example 2: [场景]
+   └── Input → Result 描述
+
+6️⃣ Common Mistakes to Avoid（常见错误）
+   ├── Mistake 1: [错误]
+   └── Mistake 2: [错误]
+
+7️⃣ FAQ（常见问题 5-7 个）
+
+8️⃣ Start Creating（CTA 结尾）
+   └── 工具选择总结 + CTA 链接
+
+9️⃣ Sources（信息来源链接）
+```
+
+### How-to 标题公式
+
+```
+How to [动作] + [对象]: [附加价值]
+
+示例：
+- "How to Make AI Anime Videos: Tools, Tips & Examples"
+- "How to Create AI Music Videos with Seedance 2.0"
+- "How to Use Drama.Land: Complete Beginner's Guide"
+```
+
+### 必须包含的元素
+
+```
+☐ 工具对比表格（至少 3 个工具）
+☐ 多种方法分别详解（不同用户需求不同方法）
+☐ 实际可用的 Prompt 示例（代码块格式）
+☐ Pro Tips 部分（专家技巧）
+☐ 常见错误避免清单
+☐ FAQ 部分
+☐ Sources 链接（所有引用的工具/文章）
+☐ CTA 分布：开头 1 个 + 中间 1-2 个 + 结尾 1 个
+```
+
+### Prompt 示例格式
+
+使用代码块展示可直接复制的 Prompt：
+
+```markdown
+**Example**:
+\`\`\`
+A teenage girl with long silver hair and red eyes walks through a neon-lit Tokyo alley at night.
+Rain falls gently. She wears a black school uniform with a red ribbon.
+Cherry blossom petals drift past. Cinematic lighting, Studio Ghibli style.
+\`\`\`
+```
+
+### 工具对比表模板
+
+```markdown
+| Tool | Best For | Input Types | Output Length | Free Tier |
+|------|----------|-------------|---------------|-----------|
+| [Tool 1] | [用途] | [输入类型] | [时长] | Yes/No |
+| [Tool 2] | [用途] | [输入类型] | [时长] | Yes/No |
+| [Tool 3] | [用途] | [输入类型] | [时长] | Yes/No |
+```
+
+### SEO 关键词策略（How-to 类）
+
+```
+主关键词: "how to [动作] [对象]"
+长尾关键词:
+├── "[对象] tutorial"
+├── "[对象] step by step guide"
+├── "best [工具类型] for [用途]"
+├── "[工具名] tutorial [年份]"
+├── "free [工具类型]"
+├── "[对象] from text/image"
+└── "[对象] maker online"
+```
+
+### 调研清单（How-to 类）
+
+```
+☐ 搜索 "how to [主题] [年份]" 找竞品文章
+☐ 搜索 "best [工具类型] [年份]" 找工具列表
+☐ WebFetch 每个主要工具的官网
+☐ 提取每个工具的：
+   ├── 核心功能
+   ├── 定价
+   ├── 适用场景
+   └── 优缺点
+☐ 搜索 "[主题] tutorial" 找教程结构参考
+☐ 搜索 "[主题] tips" 找专业技巧
+```
+
+### Category 选择
+
+How-to 类文章使用 `Tutorial` category。
+
+---
+
+## 📂 文章类型决策树
+
+```
+用户说 "帮我写..."
+         │
+         ├── "如何/How to" → 📖 How-to 教程指南
+         │
+         ├── "模型/发布/上线/接入" → 🎯 Model Launch 指南
+         │
+         ├── "对比/vs/比较" → 📊 Comparison 文章（待补充）
+         │
+         └── 其他 → 📝 标准博客结构
+```
